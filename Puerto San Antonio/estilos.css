@@ -12,8 +12,8 @@
 /* Header */
 
 header {
-    width: 1440px;
-    height: 710px;
+    width: 100vmax;
+    height: 100vh;
     background: 
     linear-gradient(180deg,
     rgba(0,0,0,1) 0%, 
@@ -41,9 +41,8 @@ nav > a:hover{
 }
 
 header .textos-header{
-    display: flex;
     height: auto;
-    width: 100%;
+    width: 100vw;
     align-items: left;
     margin-left: 141px;
     margin-top: 320px;
@@ -69,6 +68,7 @@ header .textos-header{
     flex-wrap: nowrap;
     height: 100px;
     font-size: 14px;
+    width: auto;
 }
 
 .box{
@@ -105,11 +105,12 @@ main .cifras-destacadas{
 }
 
 .contenedor-cifras-destacadas{
-    max-width: 1160px;
+    max-width: 100vw;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     justify-content: space-evenly;
+    margin-bottom: 113px;
 }
 
 .titulo {
@@ -128,3 +129,54 @@ main .cifras-destacadas{
     flex: 33%;
     color: #1fbbeb;
 }
+
+.Sostenibilidad{
+    background-image: url(https://farm6.staticflickr.com/5101/30121613371_aba28bb9ab_b.jpg) ;
+    background-size: cover;
+    width: 100vw;
+    height: 800px ;
+    color: white;
+    font-weight: 20 ;
+}
+
+.titulo p {
+    color: white;
+    font-weight: 60;
+    font-size: 20px;
+    margin-top: 60px;
+}
+
+.titulo h2{
+    font-weight: 20;
+    font-size: 30px;
+}
+
+main .Sostenibilidad{
+    padding: 65px 0 65px 0;
+    text-align: center;
+}
+
+
+.DESTACAMOS-PRENSA-REDES{
+    background-color: #e4e6e8 ;
+   }
+
+
+.container {
+    max-width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-bottom: 113px;
+    flex: 33%;
+ }
+        
+
+
+
+ .poto div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
