@@ -136,8 +136,18 @@ main .cifras-destacadas{
     width: 100vw;
     height: 800px ;
     color: white;
-    font-weight: 20 ;
+    font-weight: 400;
 }
+.elemento-container{
+    width:32%;
+    float:left;
+
+}
+
+    .elemento-container div {
+        width: 265px;
+        margin: auto auto;
+    }
 
 .titulo p {
     color: white;
